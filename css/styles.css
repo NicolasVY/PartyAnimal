@@ -11,4 +11,13 @@ body,
 .form {
 	padding-left: 40px;
 	padding-right: 40px;
+	color: white;
+}
+
+.text-center {
+	padding-top: 50px;
+}
+
+.custom-control-label {
+	color: white;
 }

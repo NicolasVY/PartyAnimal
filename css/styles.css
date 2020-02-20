@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+html,
+header,
+body,
+#log-in-background {
+	background-color: blueviolet;
+	
+}
+
+.form {
+	padding-left: 40px;
+	padding-right: 40px;
+}

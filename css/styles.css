@@ -299,6 +299,7 @@ h1 a{color:#131313; font-weight:bold;}
 .profile-card-2 .card-text{
     font-weight:300;
     font-size:15px;
+	color: darkslateblue;
 }
 .profile-card-2 .icon-block{
     float:left;
@@ -523,25 +524,12 @@ h1 a{color:#131313; font-weight:bold;}
     font-size:14px;
     font-weight:300;
 }
-.profile-card-5 .btn-primary{
+.profile-card-5 .btn-primary {
     background-color:#4E5E30;
     border-color:#4E5E30;
 }
 
-<<<<<<< HEAD
->>>>>>> c587af09d12fa3600c51c543ff91f932307a903c
-
-.profilepage{
-	background-color: blueviolet;
-	color:blueviolet;
 	
-}
-
-img {
-	border-radius: 50%;
-	vertical-align: middle;
-	
-=======
 <----- QR Code ----->
 #qrcode {
   width:160px;

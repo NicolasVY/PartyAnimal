@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <title>QR Page</title>
+  </head>
+  <body>
+    <h1>QR Page</h1>
+<div id="qrcode"></div>
+ 
+	  
+	  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	  
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+	  
+	  <script>
+		  let qrcode = new QRCode ("output",{
+			  text: "HELLO",
+			  width: 177,
+			  height: 177,
+			  ColorDark: "#e83e8c",
+			  Coloright: "#20c997",
+			  correctLevel: QRCode.CorrectLevel.H
+			  });
+	  </script>
+  </body>
+</html>
+<html>
+    <head>
+        <title>Testing QR code</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript">
+            function generateBarCode()
+            {
+                var nric = $('#text').val();
+                var url = 'https://api.qrserver.com/v1/create-qr-code/?data=' + nric + '&amp;size=50x50';
+                $('#barcode').attr('src', url);
+            }
+        </script>
+    </head>
+    <body>
+        <input id="text" type="text" 
+            value="NRIC or Work Permit" style="Width:20%"
+            onblur='generateBarCode();' /> 
+
+      <img id='barcode' 
+            src="https://api.qrserver.com/v1/create-qr-code/?data=HelloWorld&amp;size=100x100" 
+            alt="" 
+            title="HELLO" 
+            width="50" 
+            height="50" />
+		
+		<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+	<script src="js/custom-script1.js"></script>
+    </body>
+</html>
+

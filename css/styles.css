@@ -528,6 +528,7 @@ h1 a{color:#131313; font-weight:bold;}
     border-color:#4E5E30;
 }
 
+<<<<<<< HEAD
 >>>>>>> c587af09d12fa3600c51c543ff91f932307a903c
 
 .profilepage{
@@ -540,6 +541,13 @@ img {
 	border-radius: 50%;
 	vertical-align: middle;
 	
+=======
+<----- QR Code ----->
+#qrcode {
+  width:160px;
+  height:160px;
+  margin-top:15px;
+>>>>>>> d7efbc0357a62aa0a220937e2b86bacf778058b6
 }
 
 .score{

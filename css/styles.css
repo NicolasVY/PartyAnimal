@@ -21,7 +21,7 @@ body,
 }
 
 .nav-fill {
-	background: white;
+	background: blueviolet;
 }
 
 .form {
@@ -51,8 +51,15 @@ body
   margin: 0;
   padding: 0;
   
+<<<<<<< HEAD
+  /* make it look decent enough */
+  background: blueviolet ;
+  color: #cdcdcd;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+=======
   
   color: white;
+>>>>>>> c587af09d12fa3600c51c543ff91f932307a903c
 }
 
 #menuToggle
@@ -164,6 +171,13 @@ body
   transform: none;
 }
 
+<<<<<<< HEAD
+.upload{
+background: blueviolet ;
+  color: #cdcdcd;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+=======
 *Cards Section*
 
 *:hover{
@@ -285,6 +299,7 @@ h1 a{color:#131313; font-weight:bold;}
 .profile-card-2 .card-text{
     font-weight:300;
     font-size:15px;
+	color: darkslateblue;
 }
 .profile-card-2 .icon-block{
     float:left;
@@ -509,9 +524,32 @@ h1 a{color:#131313; font-weight:bold;}
     font-size:14px;
     font-weight:300;
 }
-.profile-card-5 .btn-primary{
+.profile-card-5 .btn-primary {
     background-color:#4E5E30;
     border-color:#4E5E30;
 }
 
+	
+<----- QR Code ----->
+#qrcode {
+  width:160px;
+  height:160px;
+  margin-top:15px;
+>>>>>>> d7efbc0357a62aa0a220937e2b86bacf778058b6
+}
 
+.score{
+	color:aliceblue;
+}
+
+tr{
+	border-color: aliceblue;
+}
+
+th{
+	color: aliceblue;
+}
+
+td{
+	color: aliceblue;
+}

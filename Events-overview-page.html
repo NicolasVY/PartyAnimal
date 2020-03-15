@@ -68,13 +68,14 @@
 				<input type="text" placeholder="Invite Friends">
 				<input type="text" placeholder="Ask for RSVP">
 				<div class="checkbox">
-					<ul>
-						<li>
-				<input type="checkbox" name="checkbox" value="check" id="agree" />Yes, I would like to receive notifications for this event.
-						</li>
-				<li><input type="checkbox" name="checkbox" value="check" id="yes" />Private event</li>
-					<li><input type="checkbox" name="checkbox" value="check" id="yes" />Public event</li>
-				  </ul>
+					<form>
+    					<div>
+       						<label><input class="checkbox-event" type="checkbox" />Yes, I would like to receive notifications for this event</label>
+							<label><input class="checkbox-event" type="checkbox" />Public Event</label>
+							<label><input class="checkbox-event" type="checkbox" />Private Event</label>
+    					</div>
+					</form>
+					
 				  </div>
 				<a href="" class="submit-event-button">Add event</a>
 			  </form>
@@ -128,5 +129,6 @@
 	<script src="js/popper.min.js"></script> 
 	<script src="js/bootstrap-4.4.1.js"></script>
 	<script src="js/custom-script1.js"></script>
+<script src="js/add-event-popup.js"></script>
   </body>
 </html>

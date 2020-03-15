@@ -4527,11 +4527,5 @@ if(empty($_POST['agree']) || $_POST['agree'] != 'agree') {
 
 /* event popup */
 
-document.getElementById('.event-button').addEventListener('click', function(){
-	document.querySelector('.bg-popup').style.display = 'flex';
-});
 
-document.querySelector('.close').addEventListener('click', function(){
-	document.querySelector('.bg-popup').style.display = 'none';
-});
 //# sourceMappingURL=bootstrap.js.map

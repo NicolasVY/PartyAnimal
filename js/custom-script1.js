@@ -123,3 +123,11 @@ function makeCode () {
     
     qrcode.makeCode(elText.value);
 }
+
+document.getElementById('.event-button').addEventListener('click', function(){
+	document.querySelector('.bg-popup').style.display = 'flex';
+});
+
+document.querySelector('.close').addEventListener('click', function(){
+	document.querySelector('.bg-popup').style.display = 'none'
+});

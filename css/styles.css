@@ -553,3 +553,143 @@ th{
 td{
 	color: aliceblue;
 }
+
+
+
+.events-container {
+  padding: 0 15px;
+}
+
+.events__title {
+  color: #BEC1CA;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.events__tag{
+  background: #66DCEC;
+  border: 2px solid #FEFEFE;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  width: 60px;
+  margin-left: 16px;
+  padding: 5px 2px;
+  text-align: center;
+}
+.events__tag--highlighted{
+  background: #FDCA40;
+}
+.events__tag__party{
+	background:rgba(255,0,4,1.00)
+}
+.events__item {
+  background: #fff;
+  border-left: 8px solid #86D8C9;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.05);
+  padding: 15px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.events__item--left {
+  width: calc(100% - 76px);
+}
+.events__name {
+  font-size: 12px;
+  font-weight: 700;
+  color: #222741;
+  display: block;
+  margin-bottom: 6px;
+}
+.events__date {
+  font-size: 12px;
+  color: #9FAAB7;
+  display: inline-block;
+}
+.party {
+	justify-content: center;
+	align-items: center;
+}
+.jonas-birthday .calendar-table__item{
+	display: flex;
+	justify-content: center;
+	align-items:center; background:url("/NicolasVY/PartyAnimal/images/party.png");
+}
+.birth-date{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20px;
+	width: 20px;
+	background-image: url("images/party.png");
+}
+
+/*event popup*/
+
+.bg-popup{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.7);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.popup-content{
+	width: 500px;
+	height: 200px;
+	background-color: white;
+	border-radius: 4px;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+}
+
+.popup-image{
+	width: 200px;
+	height: 200px;
+}
+
+.submit-event-button{
+  background: #66DCEC;
+  border: 2px solid #FEFEFE;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  width: 60px;
+  margin-left: 16px;
+  padding: 5px 2px;
+  text-align: center;
+}
+
+input{
+	width: 50%;
+	display: block;
+	margin: 10px auto;
+	
+}
+
+.close{
+	position: absolute;
+	top: 0;
+	right: 14px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	cursor: pointer;
+}

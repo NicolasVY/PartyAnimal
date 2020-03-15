@@ -4532,6 +4532,6 @@ document.getElementById('.event-button').addEventListener('click', function(){
 });
 
 document.querySelector('.close').addEventListener('click', function(){
-	document.querySelector('.bg-popup').style.display = 'none'
+	document.querySelector('.bg-popup').style.display = 'none';
 });
 //# sourceMappingURL=bootstrap.js.map

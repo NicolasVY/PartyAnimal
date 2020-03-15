@@ -124,5 +124,3 @@ function makeCode () {
     qrcode.makeCode(elText.value);
 }
 
-
-});

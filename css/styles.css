@@ -634,6 +634,16 @@ td{
 	background-image: url("images/party.png");
 }
 
+/*Terms of use*/
+
+.terms-of-use{
+	padding: 5px;
+	margin: 15px;
+	justify-content: center;
+	align-items: center;
+}
+
+
 /*event popup*/
 
 .bg-popup{
@@ -648,13 +658,14 @@ td{
 }
 
 .popup-content{
-	width: 500px;
-	height: 200px;
+	width: 50%;
+	height: 100%;
 	background-color: white;
 	border-radius: 4px;
 	text-align: center;
 	padding: 10px;
 	position: relative;
+	scroll-behavior: smooth;
 }
 
 .popup-image{
@@ -698,6 +709,12 @@ input{
 	display: block;
 	margin: 10px auto;
 	
+}
+
+.checkbox{
+	width: 50%;
+	display: contents;
+	margin: 10px auto;
 }
 
 .close{

@@ -50,16 +50,10 @@ body
 {
   margin: 0;
   padding: 0;
-  
-<<<<<<< HEAD
   /* make it look decent enough */
   background: blueviolet ;
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
-=======
-  
-  color: white;
->>>>>>> c587af09d12fa3600c51c543ff91f932307a903c
 }
 
 #menuToggle
@@ -171,14 +165,12 @@ body
   transform: none;
 }
 
-<<<<<<< HEAD
 .upload{
 background: blueviolet ;
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
-=======
-*Cards Section*
+/*Cards Section*/
 
 *:hover{
     -webkit-transition: all 1s ease;
@@ -528,9 +520,6 @@ h1 a{color:#131313; font-weight:bold;}
     border-color:#4E5E30;
 }
 
-<<<<<<< HEAD
->>>>>>> c587af09d12fa3600c51c543ff91f932307a903c
-
 .profilepage{
 	background-color: blueviolet;
 	color:blueviolet;
@@ -540,14 +529,13 @@ h1 a{color:#131313; font-weight:bold;}
 img {
 	border-radius: 50%;
 	vertical-align: middle;
-	
-=======
+}
+
 <----- QR Code ----->
 #qrcode {
   width:160px;
   height:160px;
   margin-top:15px;
->>>>>>> d7efbc0357a62aa0a220937e2b86bacf778058b6
 }
 
 .score{
@@ -565,3 +553,37 @@ th{
 td{
 	color: aliceblue;
 }
+
+	
+.profile {
+	max-height: 200px;
+	max-width: 200px;
+	border-radius: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow-x: ellipsis;
+	
+	}
+
+.profile img {
+	width: 100px;
+	height: 100px;
+	margin: 12px;
+}
+
+	.profilepic .col-12 {
+		justify-content:center;
+		align-content:center;
+		align-items:center;
+		display: flex;
+	}
+	
+	.name {
+		white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+		max-width: inherit;
+		text-align: center;
+	}

@@ -538,6 +538,48 @@ h1 a{color:#131313; font-weight:bold;}
 >>>>>>> d7efbc0357a62aa0a220937e2b86bacf778058b6
 }
 
+/* Friends List */
+
+main {
+  display: flex;
+  flex-direction: column;
+	 background-color:#FFFFFF;
+	font-size: 15px;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+	background-color: white;
+  padding: 12px 18px;
+	font-size: 16px;
+    color: #000;
+	
+}
+
+.list-item:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+}
+
+.list-item .image img{
+	width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.list-item .name {
+	
+}
+
+.list-item .countdown {
+	
+}
+
+
+
+
 .score{
 	color:aliceblue;
 }

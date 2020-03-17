@@ -13,10 +13,235 @@
     <title>QR Page</title>
   </head>
   <body>
-    <h1>QR Page</h1>
+	  <nav class="navbar navbar-expand-lg navbar-info bg-info">
+  <div id="menuToggle" style="padding-bottom: 15px;">
+
+    <input type="checkbox" />
+     
+    <span></span>
+    <span></span>
+    <span></span>
+    
+
+    <ul id="menu">
+	  <div class="wrapper" style="padding-bottom: 10px;">
+		  <a href="profile page.html">
+  		<img src="images/User Profile Photo.jpg" class="profile-cover" style="width: 100px; height: 100px;">
+		</a>
+		<a href="profile page.html" class="font-weight-bold"><li>John Doe</li></a>
+		  
+	  </div>
+		<a href="home.html"><li>Home</li></a>
+      <a href="#"><li>Wishlist</li></a>
+      <a href="#"><li>Events</li></a>
+      <a href="Calendar-tockify.html"><li>Calendar</li></a>
+      <a href="#"><li>Send Gifts</li></a>
+	  <a href="#"><li>Add Friends</li></a>
+	  <a href="#"><li>Close Friends</li></a>
+		<a href="Terms-of-use.html"><li>Legal</li></a>
+    </ul>
+  </div>
+	
+
+  <div class="navbar-nav ml-auto">
+	  <img src="images/User Profile Photo.jpg" class="profile-cover" style="width: 50px; height: 50px;">
+	  <a href="#"></a>
+  </div>
+	  </nav>
+    <h1>Friends List</h1>
 <div id="qrcode"></div>
  
+	  /* LIST */
+	  <div class="container-sm">
+ <main>
+  <!-- First Item -->
+  <div class="list-item">
+    <div class="image">
+      <img alt="" src="https://randomuser.me/api/portraits/men/64.jpg"/>
+    </div>
+  
+    <span class="name">
+      Marta Donarska
+    </span>
+  
+    <div class="countdown">
+      <span><span>
+		<p id="demo"></p>
+		<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Mar 25, 2020 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script> 
+		  </span></span>
+    </div>
 	  
+  </div>
+  
+  <!-- Second Item -->
+  <div class="list-item">
+    <div class="image">
+      <img alt="" src="https://randomuser.me/api/portraits/men/64.jpg"/>
+    </div>
+ 
+    <span class="name">
+      Britney Spears
+    </span>
+  
+    <div class="countdown">
+      <span><span>
+		<p id="demo"></p>
+		<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script> 
+		  </span></span>
+    </div>
+  </div>
+	 <div class="list-item">
+    <div class="image">
+      <img alt="" src="https://randomuser.me/api/portraits/men/64.jpg"/>
+    </div>
+ 
+    <span class="name">
+      Britney Spears
+    </span>
+  
+    <div class="countdown">
+      <span><span>
+		<p id="demo"></p>
+		<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script> 
+		  </span></span>
+    </div>
+  </div>
+	 <div class="list-item">
+    <div class="image">
+      <img alt="" src="https://randomuser.me/api/portraits/men/64.jpg"/>
+    </div>
+ 
+    <span class="name">
+      Britney Spears
+    </span>
+  
+    <div class="countdown">
+     
+		<p id="demo"></p>
+		<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script> 
+		  </span>
+    </div>
+  </div>
+	 
+</main>
+		  
+
 	  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	  
 	<script src="js/jquery-3.4.1.min.js"></script>
@@ -61,6 +286,39 @@
             title="HELLO" 
             width="50" 
             height="50" />
+		
+		
+		<p id="demo"></p>
+		<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
 		
 		<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

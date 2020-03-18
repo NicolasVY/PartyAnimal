@@ -203,7 +203,6 @@ main {
   flex-direction: column;
 	 background-color:#FFFFFF;
 	font-size: 15px;
-	justify-content: ;
 }
 
 .list-item {
@@ -226,7 +225,7 @@ main {
 .list-item .image img{
 	width: 90px;
   height: 90px;
-  border-radius: 50%;
+  border-radius: %;
 }
 
 .list-item .name {

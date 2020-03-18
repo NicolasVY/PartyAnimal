@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins)
 body{
 	font-family: 'Poppins', sans-serif;	
+	
 }
 
 .carousel-item {
@@ -485,8 +486,44 @@ input{
         text-overflow: ellipsis;
 		max-width: inherit;
 		text-align: center;
+		display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow-x: ellipsis;
 	}
 =======
+	
+	.countdown{
+		white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+		max-width: inherit;
+		text-align: center;
+		background-color: #FFFFFF;
+		
+	}
+	
+	.button {
+  background-color: #FBB83E;
+  border: none;
+  color: #FBB83E;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+	
+	.btn{
+		align-content: center;
+	} 
+	
+	.btn-primary{
+		
+	}
+	
 .checkboxes label span {
   vertical-align: middle;
 }

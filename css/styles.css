@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins)
 .body {
 	font-family: 'Poppins', sans-serif;	
-	
+	background-color: white;
+		
 }
 
 .carousel-item {
@@ -50,7 +51,7 @@ body
   margin: 0;
   padding: 0;
   /* make it look decent enough */
-  background: blueviolet ;
+  background: white ;
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }

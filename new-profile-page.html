@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Party Animal</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-info bg-info">
+  <div id="menuToggle" style="padding-bottom: 15px;">
+
+    <input type="checkbox" />
+     
+    <span></span>
+    <span></span>
+    <span></span>
+    
+
+    <ul id="menu">
+	  <div class="wrapper" style="padding-bottom: 10px;">
+		  <a href="profile page.html">
+  		<img src="images/User Profile Photo.jpg" class="profile-cover" style="width: 100px; height: 100px;">
+		</a>
+		<a href="profile page.html" class="font-weight-bold"><li>John Doe</li></a>
+		  
+	  </div>
+		<a href="home.html"><li>Home</li></a>
+      <a href="#"><li>Wishlist</li></a>
+      <a href="#"><li>Events</li></a>
+      <a href="Calendar-tockify.html"><li>Calendar</li></a>
+      <a href="#"><li>Send Gifts</li></a>
+	  <a href="#"><li>Add Friends</li></a>
+	  <a href="#"><li>Close Friends</li></a>
+		<a href="Terms-of-use.html"><li>Legal</li></a>
+    </ul>
+  </div>
+		<div class="navbar-nav ml-auto">
+        <img src="images/User Profile Photo.jpg" class="profile-cover" style="width: 50px; height: 50px;">
+        <a href="#"></a>
+    </div>
+	  </nav>
+	
+ <main>
+	<div class="profile .col-12 mx-auto">
+        <img src="images/User Profile Photo.jpg" class="image" >
+		<span class="name"><font size="+2" color="black"> John Doe</font></span>
+		<p><font color="black#000000">  @John_Doe97 </font></p>
+    </div>
+</main>
+
+	<div class="countdown">
+		<span class="name"><font color="#6963Dd"> Your birthday is in:</font></span>
+
+		
+	</div>
+	
+	<div>
+		<button class="button">
+		<p id="demo"></p>
+		
+		<script>
+// Set the date we're counting down to
+var countDownDate = new Date("May 12, 2020 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+</button>	
+	</div>
+	
+	<div>
+	<button type="button" class="btn btn-primary">Events</button>
+	<button type="button" class="btn btn-primary">Wishlist</button>
+	</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.4.1.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>

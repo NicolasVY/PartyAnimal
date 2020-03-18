@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins)
 body{
 	font-family: 'Poppins', sans-serif;	
+	
 }
 
 .carousel-item {
@@ -48,16 +49,10 @@ body
 {
   margin: 0;
   padding: 0;
-  
-<<<<<<< HEAD
   /* make it look decent enough */
   background: blueviolet ;
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
-=======
-  
-  color: white;
->>>>>>> c587af09d12fa3600c51c543ff91f932307a903c
 }
 
 #menuToggle
@@ -169,6 +164,16 @@ body
   transform: none;
 }
 
+<<<<<<< HEAD
+.upload{
+background: blueviolet ;
+  color: #cdcdcd;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+/*Cards Section*/
+
+=======
+>>>>>>> e86e5a49b6f8aef2e44e2a765e0ac0ebf7bf58dd
 *:hover{
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
@@ -387,6 +392,24 @@ td{
   text-align: center;
 }
 
+<<<<<<< HEAD
+.profilepage{
+	background-color: blueviolet;
+	color:blueviolet;
+	
+}
+
+img {
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+<----- QR Code ----->
+#qrcode {
+  width:160px;
+  height:160px;
+  margin-top:15px;
+=======
 .submit-event-button{
   background: #66DCEC;
   border: 2px solid #FEFEFE;
@@ -408,6 +431,7 @@ input{
 	display: block;
 	margin: 10px auto;
 	
+>>>>>>> e86e5a49b6f8aef2e44e2a765e0ac0ebf7bf58dd
 }
 
 .checkbox input{
@@ -433,6 +457,79 @@ input{
 .checkboxes input {
   vertical-align: middle;
 }
+<<<<<<< HEAD
+
+	
+.profile {
+	max-height: 200px;
+	max-width: 200px;
+	border-radius: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow-x: ellipsis;
+	
+	}
+
+.profile img {
+	width: 100px;
+	height: 100px;
+	margin: 12px;
+}
+
+	.profilepic .col-12 {
+		justify-content:center;
+		align-content:center;
+		align-items:center;
+		display: flex;
+	}
+	
+	.name {
+		white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+		max-width: inherit;
+		text-align: center;
+		display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow-x: ellipsis;
+	}
+=======
+	
+	.countdown{
+		white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+		max-width: inherit;
+		text-align: center;
+		background-color: #FFFFFF;
+		
+	}
+	
+	.button {
+  background-color: #FBB83E;
+  border: none;
+  color: #FBB83E;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+	
+	.btn{
+		align-content: center;
+	} 
+	
+	.btn-primary{
+		
+	}
+	
 .checkboxes label span {
   vertical-align: middle;
 }
+>>>>>>> e86e5a49b6f8aef2e44e2a765e0ac0ebf7bf58dd

@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins)
-body{
+.body {
 	font-family: 'Poppins', sans-serif;	
-	
+	background-color: white;
+		
 }
 
 .carousel-item {
@@ -50,7 +51,7 @@ body
   margin: 0;
   padding: 0;
   /* make it look decent enough */
-  background: blueviolet ;
+  background: white ;
   color: #cdcdcd;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
@@ -359,6 +360,13 @@ td{
 	align-items: center;
 }
 
+.buttons{
+	
+	justify-content: center;
+	display: flex;
+	background-color: #FFFFFF;
+}
+
 .popup-content{
 	width: 50%;
 	max-height: 75%;
@@ -408,7 +416,7 @@ img {
   width:160px;
   height:160px;
   margin-top:15px;
-=======
+	}
 .submit-event-button{
   background: #66DCEC;
   border: 2px solid #FEFEFE;
@@ -472,9 +480,29 @@ input{
 	}
 
 .profile img {
-	width: 100px;
-	height: 100px;
+	text-align: center;
+	width: 160px;
+	height: 160px;
 	margin: 12px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	
+	
+}
+
+.profile{
+	align-content: center;
+	justify-content: center;
+	padding left: 50px;
+	
+}
+
+.image{
+	align-content: center;
+	display: flex;
+	text-align: center;
+
 }
 
 	.profilepic .col-12 {
@@ -482,6 +510,7 @@ input{
 		align-content:center;
 		align-items:center;
 		display: flex;
+		
 	}
 	
 	.name {
@@ -495,23 +524,20 @@ input{
 	justify-content: center;
 	align-items: center;
 	overflow-x: ellipsis;
+		background-color: #FFFFFF;
 	}
 =======
 	
 	.countdown{
-		white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-		max-width: inherit;
-		text-align: center;
-		background-color: #FFFFFF;
+		background-color: #FBB83E;
+		color: #FBB83E;
+			
 		
 	}
 	
 	.button {
   background-color: #FBB83E;
   border: none;
-  color: #FBB83E;
   padding: 20px;
   text-align: center;
   text-decoration: none;
@@ -524,9 +550,21 @@ input{
 		align-content: center;
 	} 
 	
-	.btn-primary{
-		
-	}
+	.btn-secondary{
+		background-color: #FBB83E;
+		border-radius: 50px;
+		padding-top: 12px;	
+}
+
+.btn-primary{
+	background-color: #FEE2B5;
+	margin-top: 20px;
+	margin: 5px;
+	border-radius: 50px;
+	
+}
+
+
 	
 .checkboxes label span {
   vertical-align: middle;

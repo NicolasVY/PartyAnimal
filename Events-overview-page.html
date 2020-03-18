@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+   	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+	  <nav class="navbar navbar-expand-lg navbar-info bg-info">
+  <div id="menuToggle" style="padding-bottom: 15px;">
+
+    <input type="checkbox" />
+     
+    <span></span>
+    <span></span>
+    <span></span>
+    
+
+    <ul id="menu">
+	  <div class="wrapper" style="padding-bottom: 10px;">
+		  <a href="profile page.html">
+  		<img src="images/User Profile Photo.jpg" class="profile-cover" style="width: 100px; height: 100px;"></img>
+		</a>
+		<a href="profile page.html" class="font-weight-bold"><li>John Doe</li></a>
+		  
+	  </div>
+		<a href="home.html"><li>Home</li></a>
+      <a href="#"><li>Wishlist</li></a>
+      <a href="#"><li>Events</li></a>
+      <a href="Calendar-tockify.html"><li>Calendar</li></a>
+      <a href="#"><li>Send Gifts</li></a>
+	  <a href="#"><li>Add Friends</li></a>
+	  <a href="#"><li>Close Friends</li></a>
+		<a href="Terms-of-use.html"><li>Legal</li></a>
+    </ul>
+  </div>
+	
+
+  <div class="navbar-nav ml-auto">
+	  <img src="images/User Profile Photo.jpg" class="profile-cover" style="width: 50px; height: 50px;">
+	  <a href="#"></a>
+  </div>
+	  </nav>
+	 
+	  <!-- Add event popup -->
+	  <section class="hero">
+	<div class="hero-content">
+		<h1>Events</h1>
+		<a href="#" id="event-button" class="add-event-button">Add event</a>
+	</div>
+	<div class="bg-popup">
+		  <div class="popup-content">
+			  <img class="popup-image" src="images/AppLogoArtboard 1.png" alt=""></img>
+			  <div class="close">+</div>
+			  <form action="">
+			  	<input type="text" placeholder="name of event">
+				<input type="text" placeholder="date">
+				<input type="text" placeholder="time">
+				<input type="text" placeholder="Add Location">
+				<input type="text" placeholder="Add Description">
+				<input type="text" placeholder="Invite Friends">
+				<input type="text" placeholder="Ask for RSVP">
+				<div class="checkbox">
+					<form>
+    					<div class="checkboxes">
+    						<label for="x"><input type="checkbox" id="x" /> <span>Yes, I would like to receive notifications for this event</span></label>
+  							<label for="y"><input type="checkbox" id="y" /> <span>Private event</span></label>
+    						<label for="z"><input type="checkbox" id="z" /> <span>Public event</span></label>
+  						</div>
+					</form>
+					
+				  </div>
+				<a href="" class="submit-event-button">Add event</a>
+			  </form>
+		  </div>  
+	</div>
+</section>
+	  
+	  
+<!-- Events list -->
+	  <div class="container-fluid">
+		  <div class="events-container">
+        <span class="events__title">Upcoming events this month</span>
+        <ul class="events__list">
+			
+
+			
+          <li class="events__item" id="bg-modal">
+            <div class="events__item--left"><span class="events__name">Prepare surprise party Jonas' 22nd birthday</span> <span class="events__date ">March 8</span></div>
+            <span class="events__tag">16:00</span>
+          </li>
+
+			
+          <li class="events__item">
+            <div class="events__item--left">
+              <span class="events__name">Birthday Jonas - 22 Years</span>
+              <span class="events__date">Mar 11</span>
+            </div>
+            <span class="events__tag">10:00</span>
+          </li>
+          <li class="events__item">
+            <div class="events__item--left">
+              <span class="events__name">Vacation!!!</span>
+              <span class="events__date">Mar 17 - Oct 19</span>
+            </div>
+            <span class="events__tag events__tag--highlighted">All day</span>
+          </li>
+          <li class="events__item">
+            <div class="events__item--left">
+              <span class="events__name">Surprise party Jonas Whoop Whoop</span>
+              <span class="events__date">Mar 28 - Mar 29</span>
+            </div>
+			  <span class="events__tag events__tag__party">		<img class="party" src="/NicolasVY/PartyAnimal/images/party.png" width="64" height="64" alt=""/></span>
+          </li>
+        </ul>
+      </div>
+		  
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+	<script src="js/custom-script1.js"></script>
+<script src="js/add-event-popup.js"></script>
+  </body>
+</html>

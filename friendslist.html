@@ -10,8 +10,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
 
-    <title>QR Page</title>
+    <title>Your Friends</title>
   </head>
+	
   <body>
 	  <nav class="navbar navbar-expand-lg navbar-info bg-info">
   <div id="menuToggle" style="padding-bottom: 15px;">
@@ -26,9 +27,13 @@
     <ul id="menu">
 	  <div class="wrapper" style="padding-bottom: 10px;">
 		  <a href="profile page.html">
-  		<img src="images/User Profile Photo.jpg" class="profile-cover" style="width: 100px; height: 100px;">
+  		<img alt="" src="images/User Profile Photo.jpg" class="profile-cover" style="width: 100px; height: 100px;">
 		</a>
-		<a href="profile page.html" class="font-weight-bold"><li>John Doe</li></a>
+		<a href="profile page.html" class="font-weight-bold">
+		<ul>
+		  <li>John Doepa</li>
+	    </ul>
+		</a>
 		  
 	  </div>
 		<a href="home.html"><li>Home</li></a>
@@ -42,17 +47,16 @@
     </ul>
   </div>
 	
+		  <div class="navbar-nav ml-auto your-Friends">
+			  <h1>Your Friends</h1>
+		  </div>
 
   <div class="navbar-nav ml-auto">
-	  <img src="images/User Profile Photo.jpg" class="profile-cover" style="width: 50px; height: 50px;">
+	  <img alt="" src="images/User Profile Photo.jpg" class="profile-cover" style="width: 50px; height: 50px;">
 	  <a href="#"></a>
   </div>
 	  </nav>
-    <h1>Friends List</h1>
-<div id="qrcode"></div>
- 
-	  /* LIST */
-	  <div class="container-sm">
+	  <div class="container">
  <main>
   <!-- First Item -->
   <div class="list-item">
@@ -64,40 +68,9 @@
       Marta Donarska
     </span>
   
-    <div class="countdown">
-      <span><span>
-		<p id="demo"></p>
-		<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Mar 25, 2020 15:37:25").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-    
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-    
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-    
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script> 
-		  </span></span>
+    <div class="star">
+      <span><img alt="" class="star" src="images/fish logo.png">
+		  </span>
     </div>
 	  
   </div>
@@ -112,40 +85,8 @@ var x = setInterval(function() {
       Britney Spears
     </span>
   
-    <div class="countdown">
-      <span><span>
-		<p id="demo"></p>
-		<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-    
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-    
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-    
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script> 
-		  </span></span>
+    <div class="star">
+      <span> <img alt="" class="star" src="images/fish logo.png"></span>
     </div>
   </div>
 	 <div class="list-item">
@@ -154,43 +95,13 @@ var x = setInterval(function() {
     </div>
  
     <span class="name">
-      Britney Spears
+      Hello Kitty
     </span>
   
-    <div class="countdown">
-      <span><span>
-		<p id="demo"></p>
-		<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-    
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-    
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-    
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script> 
-		  </span></span>
+    <div class="star">
+     <span><img alt="" class="star" src="images/fish logo.png"> </span>
+		  
+		  
     </div>
   </div>
 	 <div class="list-item">
@@ -199,48 +110,17 @@ var x = setInterval(function() {
     </div>
  
     <span class="name">
-      Britney Spears
+      Shakalaka
     </span>
   
-    <div class="countdown">
-     
-		<p id="demo"></p>
-		<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-    
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-    
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-    
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script> 
-		  </span>
+    <div class="star">
+    <span><img alt="" class="star" src="images/fish logo.png"></span>
+		  
     </div>
   </div>
 	 
 </main>
-		  
+	</div>	  
 
 	  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	  
@@ -262,73 +142,5 @@ var x = setInterval(function() {
 	  </script>
   </body>
 </html>
-<html>
-    <head>
-        <title>Testing QR code</title>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script type="text/javascript">
-            function generateBarCode()
-            {
-                var nric = $('#text').val();
-                var url = 'https://api.qrserver.com/v1/create-qr-code/?data=' + nric + '&amp;size=50x50';
-                $('#barcode').attr('src', url);
-            }
-        </script>
-    </head>
-    <body>
-        <input id="text" type="text" 
-            value="NRIC or Work Permit" style="Width:20%"
-            onblur='generateBarCode();' /> 
 
-      <img id='barcode' 
-            src="https://api.qrserver.com/v1/create-qr-code/?data=HelloWorld&amp;size=100x100" 
-            alt="" 
-            title="HELLO" 
-            width="50" 
-            height="50" />
-		
-		
-		<p id="demo"></p>
-		<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-    
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-    
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-    
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
-		
-		<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="js/jquery-3.4.1.min.js"></script>
-
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/popper.min.js"></script> 
-	<script src="js/bootstrap-4.4.1.js"></script>
-	<script src="js/custom-script1.js"></script>
-    </body>
-</html>
 

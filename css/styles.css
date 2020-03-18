@@ -14,7 +14,8 @@ body{
 }
 
 .container {
-	padding-top: 40px;
+	padding-top: 15px;
+	align-content: stretch;
 }
 
 .nav-fill {
@@ -196,7 +197,9 @@ main {
   flex-direction: column;
 	 background-color:#FFFFFF;
 	font-size: 15px;
+	justify-content: ;
 }
+
 .list-item {
   display: flex;
   flex-direction: row;
@@ -224,7 +227,9 @@ main {
 	
 }
 
-.list-item .countdown {
+.list-item .star {
+	width: 75px;
+  height: 75px;
 	
 }
 

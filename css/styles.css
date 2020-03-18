@@ -565,7 +565,26 @@ input{
 	
 }
 
+table, th, td {
+  border: 3px solid #FBB83E;
+  border-collapse: collapse;
+	align-content: center;
+	align-items: center;
+	
+	
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
 
+.score{
+	
+	align-content: center;
+	border-color: #FBB83E;
+border-style: inherit;
+		text-align: center;
+}
 	
 .checkboxes label span {
   vertical-align: middle;

@@ -187,22 +187,14 @@ background: blueviolet ;
   border-bottom-right-radius: 60% 20%;
 }
 
-	
-/* QR Code */
-#qrcode {
-  width:160px;
-  height:160px;
-  margin-top:15px;
->>>>>>> d7efbc0357a62aa0a220937e2b86bacf778058b6
-}
 
-/* Friends List */
+
+/* Your Friends */
 
 main {
   display: flex;
   flex-direction: column;
 	 background-color:#FFFFFF;
-	font-size: 15px;
 }
 
 .list-item {
@@ -210,35 +202,49 @@ main {
   flex-direction: row;
   align-items: center;
   align-content: center;
-  justify-content: space-between;
+ justify-content: space-between;
 	background-color: white;
   padding: 12px 18px;
-	font-size: 16px;
     color: #000;
-	
 }
 
 .list-item:not(:last-child) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.75);
 }
 
-.list-item .image img{
+.list-item .listphoto img{
 	width: 90px;
   height: 90px;
-  border-radius: %;
+	border-radius: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .list-item .name {
-	
+font-size: 20px;
 }
 
-.list-item .star {
-	width: 75px;
-  height: 75px;
-	
+.list-item .star img{
+	width: 40px;
+  height: 40px;
+	border-radius: 10%;
+  
 }
 
-
+.yourfriends-addfriend {
+	background: #66DCEC;
+	display: flex;
+  flex-direction: row;
+	height: 50px;
+	
+}
+.yourfriends-addfriend img{
+	width: 60px;
+	height: 50px;
+	background: #66DCEC;
+	align-content: flex-end;
+	position: absolute;
+  right: 17px;
+}
 
 
 .score{

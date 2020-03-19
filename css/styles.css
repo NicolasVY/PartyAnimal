@@ -1,12 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins)
+	
 .body {
-	font-family: 'Poppins', sans-serif;	
-	background-color: white;
-		
+	background-color: white;	
 }
 
 .carousel-item {
-  height: 65vh;
+  height: 85vh;
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -15,8 +14,54 @@
   background-size: cover;
 }
 
+.display-1 {
+	font-weight: 800;
+	background-color: white;
+}
+
+#birthdayperson-container {
+	height: 100px;
+}
+
+#BirthdayPerson-text {
+	padding-right: 15px;
+}
+
+.profile-birthday {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit:cover;
+	object-position:left;
+	margin-right: 5px;
+}
+
+.first-btn {
+	margin-right: 5px;
+	vertical-align: top;
+}
+
+.second-btn {
+	margin-right: 20px;
+}
+
+.lead {
+	background-color: dark
+}
+
+.carousel-container {
+  position: absolute;
+  right: 15%;
+  left: 15%;
+  top: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
 .container {
-	padding-top: 15px;
+	padding-top: 25px;
 	align-content: stretch;
 }
 
@@ -50,10 +95,8 @@ body
 {
   margin: 0;
   padding: 0;
-  /* make it look decent enough */
   background: white ;
   color: #cdcdcd;
-  font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
 #menuToggle
@@ -178,13 +221,6 @@ background: blueviolet ;
 *:hover{
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
-}
-
-.header {
-  position: relative;
-  height: 300px;
-  border-bottom-left-radius: 60% 20%;
-  border-bottom-right-radius: 60% 20%;
 }
 
 	

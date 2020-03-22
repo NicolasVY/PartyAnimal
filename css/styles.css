@@ -662,3 +662,9 @@ border-style: inherit;
   vertical-align: middle;
 }
 >>>>>>> e86e5a49b6f8aef2e44e2a765e0ac0ebf7bf58dd
+
+
+
+.hero-content {
+	align-content: center;
+}

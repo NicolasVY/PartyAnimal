@@ -643,6 +643,7 @@ th, td {
 	border-color: #FBB83E;
 border-style: inherit;
 		text-align: center;
+			justify-content: center;
 }
 	
 

@@ -4,6 +4,10 @@
 	background-color: white;	
 }
 
+.float-none {
+	padding-right: 5px;
+}
+
 .carousel-item {
   height: 85vh;
   min-height: 350px;
@@ -89,6 +93,11 @@
   border-radius: 50%;
   object-fit:cover;
   object-position: center;
+}
+
+.wrapper {
+	text-align: center;
+	padding-left: 30px;
 }
 
 body
@@ -185,11 +194,10 @@ body
 #menu {
   position: absolute;
   width: 350px;
-  height: 1000px;
+  height: 1100px;
   margin: -100px 0 0 -50px;
   padding: 100px;
   padding-top: 125px;
-  text-align: center;
   background: white;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -197,7 +205,6 @@ body
   transform: translate(-100%, 0);
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
-
 
 #menu li {
   padding: 10px 0;
@@ -208,7 +215,6 @@ body
   transform: none;
 }
 
-<<<<<<< HEAD
 .upload{
 background: blueviolet ;
   color: #cdcdcd;

@@ -70,9 +70,6 @@
 	align-content: stretch;
 }
 
-.nav-fill {
-	background: blueviolet;
-}
 
 .form {
 	padding-left: 40px;
@@ -616,7 +613,7 @@ input{
 	
 	.btn-secondary{
 		background-color: #FBB83E;
-		border-radius: 50px;
+		border-radius: 10px;
 		padding-top: 12px;	
 }
 

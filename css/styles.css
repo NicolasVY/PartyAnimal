@@ -505,7 +505,6 @@ input{
 	display: block;
 	margin: 10px auto;
 	
->>>>>>> e86e5a49b6f8aef2e44e2a765e0ac0ebf7bf58dd
 }
 
 .checkbox input{
@@ -547,13 +546,12 @@ input{
 	}
 
 .profile img {
-	text-align: center;
-	width: 160px;
-	height: 160px;
-	margin: 12px;
-	justify-content: center;
-	display: flex;
-	align-items: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit:cover;
+  object-position: center;
+  margin-top: 30px;
 	
 	
 }
@@ -593,7 +591,6 @@ input{
 	overflow-x: ellipsis;
 		background-color: #FFFFFF;
 	}
-=======
 	
 	.countdown{
 		background-color: #FBB83E;

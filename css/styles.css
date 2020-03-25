@@ -4,6 +4,10 @@
 	background-color: white;	
 }
 
+h4{
+	color: white;
+}
+
 .float-none {
 	padding-right: 5px;
 }
@@ -262,7 +266,7 @@ main {
   align-content: center;
  justify-content: space-between;
 	background-color: white;
-  padding: 12px 18px;
+  padding: 10px 10px;
     color: #000;
 }
 
@@ -271,10 +275,11 @@ main {
 }
 
 .list-item .listphoto img{
-	width: 90px;
-  height: 90px;
-	border-radius: 50%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit:cover;
+  object-position: center;
 }
 
 .list-item .name {

@@ -4,6 +4,10 @@
 	background-color: white;	
 }
 
+h4{
+	color: white;
+}
+
 .float-none {
 	padding-right: 5px;
 }
@@ -21,6 +25,7 @@
 .display-1 {
 	font-weight: 800;
 	background-color: white;
+	
 }
 
 #birthdayperson-container {
@@ -28,7 +33,7 @@
 }
 
 #BirthdayPerson-text {
-	padding-right: 15px;
+	padding-right: 10px;
 }
 
 .profile-birthday {
@@ -37,7 +42,7 @@
 	border-radius: 50%;
 	object-fit:cover;
 	object-position:left;
-	margin-right: 5px;
+
 }
 
 .first-btn {
@@ -46,7 +51,7 @@
 }
 
 .second-btn {
-	margin-right: 20px;
+	margin-right: 5px;
 }
 
 .lead {
@@ -55,8 +60,8 @@
 
 .carousel-container {
   position: absolute;
-  right: 15%;
-  left: 15%;
+  right: 2%;
+  left: 2%;
   top: 15%;
   z-index: 10;
   padding-top: 20px;
@@ -69,9 +74,6 @@
 	align-content: stretch;
 }
 
-.nav-fill {
-	background: blueviolet;
-}
 
 .form {
 	padding-left: 40px;
@@ -264,7 +266,7 @@ main {
   align-content: center;
  justify-content: space-between;
 	background-color: white;
-  padding: 12px 18px;
+  padding: 10px 10px;
     color: #000;
 }
 
@@ -273,12 +275,20 @@ main {
 }
 
 .list-item .listphoto img{
+<<<<<<< HEAD
 	width: 100px;
   height: 100px;
   border-radius: 50%;
   object-fit:cover;
   object-position: center;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+=======
+	width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit:cover;
+  object-position: center;
+>>>>>>> 2ff985cafa93ac9580617aef8b61a5af4b8584c6
 }
 
 .list-item .name {
@@ -506,7 +516,6 @@ input{
 	display: block;
 	margin: 10px auto;
 	
->>>>>>> e86e5a49b6f8aef2e44e2a765e0ac0ebf7bf58dd
 }
 
 .checkbox input{
@@ -548,13 +557,12 @@ input{
 	}
 
 .profile img {
-	text-align: center;
-	width: 160px;
-	height: 160px;
-	margin: 12px;
-	justify-content: center;
-	display: flex;
-	align-items: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit:cover;
+  object-position: center;
+  margin-top: 30px;
 	
 	
 }
@@ -594,7 +602,6 @@ input{
 	overflow-x: ellipsis;
 		background-color: #FFFFFF;
 	}
-=======
 	
 	.countdown{
 		background-color: #FBB83E;
@@ -620,7 +627,7 @@ input{
 	
 	.btn-secondary{
 		background-color: #FBB83E;
-		border-radius: 50px;
+		border-radius: 10px;
 		padding-top: 12px;	
 }
 

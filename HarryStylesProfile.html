@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Party Animal</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-info bg-info">
+  <div id="menuToggle" style="padding-bottom: 15px;">
+
+    <input type="checkbox" />
+     
+    <span></span>
+    <span></span>
+    <span></span>
+    
+
+    <ul id="menu">
+	  <div class="wrapper" style="padding-bottom: 10px;">
+		  <a href="profile page.html">
+  		<img src="images/User Profile Photo.jpg" class="profile-cover" style="width: 100px; height: 100px;">
+		</a>
+		<a href="new-profile-page.html" class="font-weight-bold"><li>John Doe</li></a>
+		  
+	  </div>
+<<<<<<< HEAD
+	<a href="home.html"><li>Home</li></a>
+			  <a href="#"><li>Wishlist</li></a>
+			  <a href="Events-overview-page.html"><li>Events</li></a>
+			  <a href="Calendar-tockify.html"><li>Calendar</li></a>
+			  <a href="#"><li>Send Gifts</li></a>
+			  <a href="friendslist.html"><li>Friends</li></a>
+				<a href="Terms-of-use.html"><li>Legal</li></a>
+=======
+		<a href="home.html"><li>Home</li></a>
+      <a href="Wishlist.html"><li>Wishlist</li></a>
+      <a href="Events-overview-page.html"><li>Events</li></a>
+      <a href="Calendar-tockify.html"><li>Calendar</li></a>
+      <a href="#"><li>Send Gifts</li></a>
+	  <a href="friendslist.html"><li>Friends</li></a>
+	  <a href="Terms-of-use.html"><li>Legal</li></a>
+>>>>>>> partyanimal/master
+    </ul>
+  </div>
+	
+	
+		  <div class="navbar-nav ml-auto">
+			  <h1> Friends Page </h1>
+		  </div>
+		<div class="navbar-nav ml-auto">
+        <img src="images/User Profile Photo.jpg" class="profile-cover" style="width: 50px; height: 50px;">
+        <a href="#"></a>
+    </div>
+	  </nav>
+	
+ <main>
+	<div class="profile col-12 mx-auto name">
+        <img src="images/HarryStylesProfile.png" class="image">
+		<span class="name"><font size="+4" color="black"> Harry Styles</font></span>
+		<p><font color="black#000000">  @YourHarry </font></p>
+    </div>
+</main>
+
+	<div class="countdown">
+		<span class="name"><font color="#6963Dd"> Birthday is in:</font></span>
+
+		
+	</div>
+	
+	<div class="name">
+		<button class="btn-secondary"><font color="white" size="+3"> 
+			<p id="demo"></p></font>
+		
+		<script>
+// Set the date we're counting down to
+var countDownDate = new Date("February 1, 2021 15:00:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+	</button>
+	</div>
+	
+	<div class="buttons">
+		<a href="Events-overview-page.html"> <button type="button" class="btn btn-primary"><font color="black" size="+2"> Harry's Event</button></font></a>
+		<a href="xxxx"> <button type="button" class="btn btn-primary"><font color="black" size="+2">See Friends</button></font></a>
+		<a href="Wishlist.html"> <button type="button" class="btn btn-primary"><font color="black" size="+2">See Wishlist</button></font></a>
+	</div>
+
+	<div>
+	<table style="width:80%" class="score">
+  
+  <tr class="score mx-auto">
+    <th><font color="#000000"> Animal Badge</font></th>
+    <th><font color="#000000"> Score </font></th>
+  </tr>
+  <tr class="score">
+    <td> <img src="images/hond.png" class="dog"> 
+			  </td>
+    <td><font color="#000000" size="+2"> 54 </font> <br> <font color="#000000"> Birthdays added</font></td>
+  </tr>
+  <tr class="score">
+    <td> <img src="images/AppLogoArtboard 522.png" class="fish">
+	  </td>
+    <td><font color="#000000" size="+2"> 07 </font> <br> <font color="#000000"> Parties planned </font></td>
+  </tr>
+</table>
+	
+	
+	</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.4.1.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>

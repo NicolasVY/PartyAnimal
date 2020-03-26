@@ -437,7 +437,7 @@ td{
 }
 
 .popup-content{
-	width: 50%;
+	width: 80%;
 	max-height: 75%;
 	overflow-y: scroll;
 	background-color: white;
@@ -665,8 +665,11 @@ border-style: inherit;
 	
 }
 
-.checkboxes label span {
+.checkboxes-event label span {
   vertical-align: middle;
+	text-align: center;
+	padding: 10px;
+	position: relative;
 }
 >>>>>>> e86e5a49b6f8aef2e44e2a765e0ac0ebf7bf58dd
 

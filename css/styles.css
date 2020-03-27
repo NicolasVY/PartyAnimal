@@ -281,11 +281,15 @@ main {
   object-fit:cover;
   object-position: center;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .list-item .name {
 font-size: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 70px;
+	padding-right: 70px;
+	color: black;
 }
 
 .list-item .star img{
@@ -311,10 +315,100 @@ font-size: 20px;
   right: 17px;
 }
 
+   /* Your Friends Pop Up */
+
+.i-get-it-button {
+	 background: #66DCEC;
+  border: 2px solid #FEFEFE;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  width: 60px;
+  margin-left: 16px;
+  padding: 5px 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+  text-align: center;
+}
+
+
+/* The Modal (background) Friends List**/
+.modal-friends {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content Friends List*/
+.modal-content-friends {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 35px;
+  border: 1px solid #888;
+  width: 70%;
+	text-align: center;
+}
+
+.buttondiv {
+	
+}
+
+
+.howdoesitworkbtn{
+	background: #66DCEC;
+  border: 2px solid #FEFEFE;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  width: 90px;
+  margin-left: 16px;
+  padding: 7px 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+  text-align: center;
+}
+
+
+.modal-content-friends img{
+	border-radius: 10px;
+}
+
+/* The Close Button */
+.endbutton {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.endbutton:hover,
+.endbutton:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 .score{
 	color:aliceblue;
 }
+
+
 
 tr{
 	border-color: aliceblue;
@@ -417,6 +511,48 @@ td{
 	align-items: center;
 }
 
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
 
 /*event popup*/
 
@@ -432,14 +568,13 @@ td{
 }
 
 .buttons{
-	
 	justify-content: center;
 	display: flex;
 	background-color: #FFFFFF;
 }
 
 .popup-content{
-	width: 50%;
+	width: 80%;
 	max-height: 75%;
 	overflow-y: scroll;
 	background-color: white;
@@ -667,8 +802,11 @@ border-style: inherit;
 	
 }
 
-.checkboxes label span {
+.checkboxes-event label span {
   vertical-align: middle;
+	text-align: center;
+	padding: 10px;
+	position: relative;
 }
 
 

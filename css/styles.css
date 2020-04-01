@@ -813,3 +813,29 @@ border-style: inherit;
 .hero-content {
 	
 }
+
+.newitem { 
+margin: auto;
+width:42%;
+  padding: auto;
+	color:#6963D3; 
+}
+
+.inputstyle { 
+color: white;
+	background-color:#6963D3;
+	border-radius: 12px;
+	padding: 20px;
+}
+
+.buttonstyle{ 
+border-radius: 50%;
+	padding-left:5px;
+	padding-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #FEE2B5;
+	color:#6963D3;
+
+
+}

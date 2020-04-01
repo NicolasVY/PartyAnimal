@@ -813,7 +813,20 @@ border-style: inherit;
 .hero-content {
 	
 }
+ul{ 
+list-style-type: none;
+	margin: auto;
+  width: 85%;
+  padding: 10px;
 
+}
+li{ 
+background-color: #ADABE8; 
+	color: white;
+	padding: 10px;
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
 .newitem { 
 margin: auto;
 width:42%;

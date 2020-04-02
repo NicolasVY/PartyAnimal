@@ -813,14 +813,14 @@ border-style: inherit;
 .hero-content {
 	
 }
-ul{ 
+.wishlistitem{ 
 list-style-type: none;
 	margin: auto;
   width: 85%;
   padding: 10px;
 
 }
-li{ 
+.wishlist{ 
 background-color: #ADABE8; 
 	color: white;
 	padding: 10px;

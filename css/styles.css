@@ -224,32 +224,27 @@ background: blueviolet ;
 }
 /*Cards Section*/
 
-=======
->>>>>>> e86e5a49b6f8aef2e44e2a765e0ac0ebf7bf58dd
+
 *:hover{
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
 }
 
-<<<<<<< HEAD
 	
 /* QR Code */
 #qrcode {
   width:160px;
   height:160px;
   margin-top:15px;
->>>>>>> d7efbc0357a62aa0a220937e2b86bacf778058b6
+
 }
-=======
+
 .header {
   position: relative;
   height: 300px;
   border-bottom-left-radius: 60% 20%;
   border-bottom-right-radius: 60% 20%;
 }
-
->>>>>>> partyanimal/master
-
 
 /* Your Friends */
 

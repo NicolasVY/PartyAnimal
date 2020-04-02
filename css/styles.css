@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins)
+
 	
 .body {
 	background-color: white;	
@@ -444,6 +444,7 @@ td{
   margin-left: 16px;
   padding: 5px 2px;
   text-align: center;
+	object-position: right;
 }
 .events__tag--highlighted{
   background: #FDCA40;
@@ -754,6 +755,12 @@ input{
 		padding-top: 12px;	
 }
 
+	.btn{
+		background-color: #FBB83E;
+		border-radius: 10px;
+		padding-top: 12px;	
+}
+
 .btn-primary{
 	background-color: #FEE2B5;
 	margin-top: 20px;
@@ -808,14 +815,14 @@ border-style: inherit;
 .hero-content {
 	
 }
-ul{ 
+.wishlistitem{ 
 list-style-type: none;
 	margin: auto;
   width: 85%;
   padding: 10px;
 
 }
-li{ 
+.wishlist{ 
 background-color: #ADABE8; 
 	color: white;
 	padding: 10px;
@@ -844,6 +851,59 @@ border-radius: 50%;
 	padding-bottom: 10px;
 	background-color: #FEE2B5;
 	color:#6963D3;
+}
 
+.birthdayy{
+	padding: 15px;
+}
 
+.birthdaymarta{
+	
+	
+}
+
+	.name1 {
+		white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+		max-width: inherit;
+		text-align: center;
+		display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow-x: ellipsis;
+		background-color: #FFFFFF;
+	}
+
+.partyname{
+	padding: 20px;
+}
+
+.party{ 
+list-style-type: none;
+	margin: auto;
+  width: 85%;
+	height: auto;
+  padding: 10px;
+	text-align: center;
+	margin-bottom: 5px;
+	
+
+}
+.partyname{ 
+background-color: #F2BA57; 
+	color: white;
+	padding: 5px;
+	margin-bottom: 35px;
+	margin-top: 10px;
+}
+
+.partyfriends img{
+	width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit:cover;
+  object-position: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

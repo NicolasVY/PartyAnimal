@@ -1,51 +1,3 @@
-@charset "utf-8";
-html,
-header,
-body
-#log-in-background{
-	height: 100%;
-	background-color: darkviolet;
-}
-
-#log-in-whitebg {
-	background-color: white;
-	width: 100px;
-    height: 100px;
-	margin: auto 0;
-	border-radius: 50%;
-}
-
-html,
-header,
-body
-#log-in-background{
-	height: 100%;
-	background-color: darkviolet;
-}
-
-#log-in-whitebg {
-	background-color: white;
-	width: 100px;
-    height: 100px;
-	margin: auto 0;
-	border-radius: 50%;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html, body {
-  height: 100%;
-}
-
-body {
-  -webkit-font-smoothing: antialiased;
-  font-family: "Montserrat", sans-serif;
-  text-rendering: optimizeLegibility;
-  background: #fcfcfc;
-}
 
 .mock-up-link {
   display: none;
@@ -346,12 +298,12 @@ header {
 	align-items: center;
 	height: 20px;
 	width: 20px;
-	background-image: url("images/party.png");
+	background-image: url("../images/party.png");
 }
 .icon .ion-ios-arrow-back{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image:url("images/back-button.png");
+	background-image:url("../images/back-button.png");
 	
 }
